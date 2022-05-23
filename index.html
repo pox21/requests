@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX homework</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="scripts.js" type="module"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Страниц постов</h1>
+    <div class="page-wrapper">
+      <p>Введите свое имя пользователя на GitHub</p>
+      <form>
+        <input class="input-name js-input" type="text" name="name" placeholder="Введите свое имя GitHub">
+        <button class="load-button js-load"> Загрузить данные</button>
+      </form>
+
+      <div class="results-container js-results">
+      </div>
+
+      <div class="posts">
+        <h2 class="posts__title">Все посты</h2>
+        <ul class="posts__list list-reset">
+          <li class="posts__item post">
+            <h3 class="post__title">в</h3>
+            <p class="post__text"></p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
