@@ -1,6 +1,3 @@
-// import axios from 'https://unpkg.com/axios/dist/axios.min.js';
-
-
 const resultsContainer = document.querySelector(".js-results");
 const postsList = document.querySelector(".posts__list");
 const userList = document.querySelector(".users__list");
