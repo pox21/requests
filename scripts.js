@@ -30,6 +30,10 @@ const getUsers = async () => {
 
 const renderUser = async (user) => {
   const result = await getUserGithub(user);
+  if (!result.login) {
+    resultsContainer.insertAdjacentHTML('afterbegin',`<p>Пользователь не найден</p>`);
+    return;
+  }
   resultsContainer.insertAdjacentHTML('afterbegin',`
       <div class="response-container">
           <img src="${result.avatar_url}">
