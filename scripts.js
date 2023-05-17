@@ -70,7 +70,7 @@ const renderUsers = async () => {
           <a href="">${user.phone}</a>
         </li>
         <li class="user__contact website">
-          <a href="${user.website}">${user.website}</a>
+          <a href="https://${user.website}">${user.website}</a>
         </li>
         <li class="user__contact email">
           <a href="mailto:${user.website}">${user.email}</a>
