@@ -97,7 +97,7 @@ const renderUsers = async () => {
         </li>
       </ul>
       <div class="user__info">
-        <a class="user__link" href="?id=${user.id}">Show Profile</a>
+        <a class="user__link" href="https://jsonplaceholder.typicode.com/users/${user.id}">Show Profile</a>
         <img src="https://ui-avatars.com/api/?name=${user.name}&background=random" alt="" class="user__avatar">
         <h3 class="user__name">${user.name}</h3>
         <p class="user__username">${user.username}</p>
