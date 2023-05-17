@@ -70,7 +70,7 @@ const renderUsers = async () => {
           <a href="">${user.phone}</a>
         </li>
         <li class="user__contact website">
-          <a href="https://${user.website}">${user.website}</a>
+          <a href="https://${user.website}" target="_blank">${user.website}</a>
         </li>
         <li class="user__contact email">
           <a href="mailto:${user.website}">${user.email}</a>
@@ -97,7 +97,7 @@ const renderUsers = async () => {
         </li>
       </ul>
       <div class="user__info">
-        <a class="user__link" href="https://jsonplaceholder.typicode.com/users/${user.id}">Show Profile</a>
+        <a class="user__link" href="https://jsonplaceholder.typicode.com/users/${user.id}" target="_blank">Show Profile</a>
         <img src="https://ui-avatars.com/api/?name=${user.name}&background=random" alt="" class="user__avatar">
         <h3 class="user__name">${user.name}</h3>
         <p class="user__username">${user.username}</p>
