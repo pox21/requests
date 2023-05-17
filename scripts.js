@@ -50,7 +50,7 @@ const renderPosts = async () => {
   posts.forEach(post => {
     allPosts += `
       <li class="posts__item post">
-        <h3 class="post__title">${post.name}</h3>
+        <h3 class="post__title">${post.title}</h3>
         <p class="post__text">${post.title}</p>
       </li>
     `;
